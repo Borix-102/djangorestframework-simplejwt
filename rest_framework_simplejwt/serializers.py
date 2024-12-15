@@ -1,7 +1,7 @@
 from __future__ import unicode_literals
 
 from django.contrib.auth import authenticate
-from django.utils.six import text_type
+from six import text_type
 from django.utils.translation import ugettext_lazy as _
 from rest_framework import serializers
 

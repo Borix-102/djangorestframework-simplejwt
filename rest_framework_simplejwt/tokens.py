@@ -4,7 +4,7 @@ from datetime import timedelta
 from uuid import uuid4
 
 from django.conf import settings
-from django.utils.six import python_2_unicode_compatible, text_type
+from six import python_2_unicode_compatible, text_type
 from django.utils.translation import ugettext_lazy as _
 
 from .exceptions import TokenBackendError, TokenError

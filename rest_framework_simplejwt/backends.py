@@ -34,7 +34,7 @@ class TokenBackend(object):
         Returns an encoded token for the given payload dictionary.
         """
         token = jwt.encode(payload, self.signing_key, algorithm=self.algorithm)
-        return token.decode('utf-8')
+        return token
 
     def decode(self, token, verify=True):
         """

@@ -4,7 +4,7 @@ from calendar import timegm
 from datetime import datetime
 
 from django.conf import settings
-from django.utils import six
+import six
 from django.utils.functional import lazy
 from django.utils.timezone import is_naive, make_aware, utc
 
