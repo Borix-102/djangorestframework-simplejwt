@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from django.contrib.auth import models as auth_models
 from django.db.models.manager import EmptyManager
-from django.utils.encoding import python_2_unicode_compatible
+from six import python_2_unicode_compatible
 from django.utils.functional import cached_property
 
 from .compat import CallableFalse, CallableTrue
